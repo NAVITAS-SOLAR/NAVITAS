@@ -1,0 +1,55 @@
+
+
+
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: hard-light;
+      
+      }
+      /* FRONT-END DATA*/
+    .col{
+        display:grid;
+        height: 40px;
+        align-items:center;
+        grid-template-columns:auto;
+        gap: 300px;
+        
+        padding: 5px;
+        align-items: right;
+        opacity: 100px;
+      }
+      .col > div {
+        background-color: rgba(130, 219, 242, 0.8);
+        text-align: center;
+        padding: 6px 0;
+        font-size: 30px;
+      }
+      .STRINGRE-PRODUCTION > div{
+        
+        width: 400px;
+        height:fit-content;
+        text-align: justify;
+        float: left;
+        overflow: hidden;
+        padding: 10px;
+        
+      } 
+    
+    
+     .AP > div{
+      width: 400px;
+        height: fit-content;
+        text-align: justify;
+        float: left;
+        overflow: hidden;
+        padding: 10px;
+      } 
+    
+      /*BACK-END DATA*/
+      
+    .ul{
+      text-align: justify;
+    }
